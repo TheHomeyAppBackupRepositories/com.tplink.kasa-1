@@ -1,1 +1,741 @@
-{"_comment":"This file is generated. Please edit .homeycompose/app.json instead.","id":"com.tplink.kasa","version":"1.4.0","compatibility":">=5.0.0","brandColor":"#00CCB4","sdk":3,"name":{"en":"TP-Link Kasa Smart"},"description":{"en":"Making Your Connected Home a Smart Home"},"category":["appliances"],"permissions":[],"platforms":["cloud","local"],"images":{"large":"/assets/images/large.png","small":"/assets/images/small.png"},"author":{"name":"Athom B.V."},"support":"https://support.athom.com/hc/en-us/requests/new","drivers":[{"images":{"large":"/drivers/EP10/assets/images/large.png","small":"/drivers/EP10/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"EP10","name":{"en":"Mini Plug EP10"},"class":"socket","capabilities":["onoff"]},{"images":{"large":"/drivers/HS100/assets/images/large.png","small":"/drivers/HS100/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS100","name":{"en":"Wall Plug HS100"},"class":"socket","capabilities":["onoff"]},{"images":{"large":"/drivers/HS103/assets/images/large.png","small":"/drivers/HS103/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS103","name":{"en":"Mini Plug HS103"},"class":"socket","capabilities":["onoff"]},{"images":{"large":"/drivers/HS110/assets/images/large.png","small":"/drivers/HS110/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS110","name":{"en":"Wall Plug HS110"},"class":"socket","capabilities":["onoff"]},{"images":{"large":"/drivers/HS200/assets/images/large.png","small":"/drivers/HS200/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS200","name":{"en":"Light Switch HS200"},"class":"light","capabilities":["onoff"]},{"images":{"large":"/drivers/HS210/assets/images/large.png","small":"/drivers/HS210/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS210","name":{"en":"Light Switch HS210"},"class":"light","capabilities":["onoff"]},{"images":{"large":"/drivers/HS220/assets/images/large.png","small":"/drivers/HS220/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"HS220","name":{"en":"In-wall Dimmer HS220"},"class":"light","capabilities":["onoff","dim"]},{"images":{"large":"/drivers/KL110/assets/images/large.png","small":"/drivers/KL110/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"Dimmable Bulb KL110"},"class":"light","capabilities":["onoff","dim"],"id":"KL110","settings":[{"id":"transitionPeriod","type":"number","label":{"en":"Transition period"},"value":250,"min":0,"max":10000,"units":{"en":"milliseconds"},"hint":{"en":"The transition period to the new light setting in milliseconds (1/1000th of a second)."}}]},{"images":{"large":"/drivers/KL125/assets/images/large.png","small":"/drivers/KL125/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"RGBW Bulb KL125"},"class":"light","capabilities":["onoff","dim","light_hue","light_saturation","light_temperature","light_mode"],"id":"KL125","settings":[{"id":"transitionPeriod","type":"number","label":{"en":"Transition period"},"value":250,"min":0,"max":10000,"units":{"en":"milliseconds"},"hint":{"en":"The transition period to the new light setting in milliseconds (1/1000th of a second)."}}]},{"images":{"large":"/drivers/KL130/assets/images/large.png","small":"/drivers/KL130/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"RGBW Bulb KL130"},"class":"light","capabilities":["onoff","dim","light_hue","light_saturation","light_temperature","light_mode"],"id":"KL130","settings":[{"id":"transitionPeriod","type":"number","label":{"en":"Transition period"},"value":250,"min":0,"max":10000,"units":{"en":"milliseconds"},"hint":{"en":"The transition period to the new light setting in milliseconds (1/1000th of a second)."}}]},{"images":{"large":"/drivers/KL400/assets/images/large.png","small":"/drivers/KL400/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"Light Strip KL400"},"class":"light","capabilities":["onoff","dim","light_hue","light_saturation"],"id":"KL400"},{"images":{"large":"/drivers/KL430/assets/images/large.png","small":"/drivers/KL430/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"Light Strip KL430"},"class":"light","capabilities":["onoff","dim","light_hue","light_saturation","light_temperature","light_mode"],"id":"KL430"},{"images":{"large":"/drivers/KL60/assets/images/large.png","small":"/drivers/KL60/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"name":{"en":"Dimmable Bulb KL60"},"class":"light","capabilities":["onoff","dim"],"id":"KL60","settings":[{"id":"transitionPeriod","type":"number","label":{"en":"Transition period"},"value":250,"min":0,"max":10000,"units":{"en":"milliseconds"},"hint":{"en":"The transition period to the new light setting in milliseconds (1/1000th of a second)."}}]},{"images":{"large":"/drivers/KP303/assets/images/large.png","small":"/drivers/KP303/assets/images/small.png"},"platforms":["cloud","local"],"connectivity":["cloud"],"pair":[{"id":"login_oauth2","template":"login_oauth2"},{"id":"list_devices","template":"list_devices","navigation":{"next":"add_devices"}},{"id":"add_devices","template":"add_devices"}],"repair":[{"id":"login_oauth2","template":"login_oauth2"}],"id":"KP303","name":{"en":"Power strip KP303"},"class":"socket","capabilities":["onoff"]}]}
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.tplink.kasa",
+  "version": "1.4.0",
+  "compatibility": ">=5.0.0",
+  "brandColor": "#00CCB4",
+  "sdk": 3,
+  "name": {
+    "en": "TP-Link Kasa Smart"
+  },
+  "description": {
+    "en": "Making Your Connected Home a Smart Home"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "platforms": [
+    "cloud",
+    "local"
+  ],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Athom B.V."
+  },
+  "support": "https://support.athom.com/hc/en-us/requests/new",
+  "drivers": [
+    {
+      "images": {
+        "large": "/drivers/EP10/assets/images/large.png",
+        "small": "/drivers/EP10/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "EP10",
+      "name": {
+        "en": "Mini Plug EP10"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS100/assets/images/large.png",
+        "small": "/drivers/HS100/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS100",
+      "name": {
+        "en": "Wall Plug HS100"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS103/assets/images/large.png",
+        "small": "/drivers/HS103/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS103",
+      "name": {
+        "en": "Mini Plug HS103"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS110/assets/images/large.png",
+        "small": "/drivers/HS110/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS110",
+      "name": {
+        "en": "Wall Plug HS110"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS200/assets/images/large.png",
+        "small": "/drivers/HS200/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS200",
+      "name": {
+        "en": "Light Switch HS200"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS210/assets/images/large.png",
+        "small": "/drivers/HS210/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS210",
+      "name": {
+        "en": "Light Switch HS210"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/HS220/assets/images/large.png",
+        "small": "/drivers/HS220/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "HS220",
+      "name": {
+        "en": "In-wall Dimmer HS220"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/KL110/assets/images/large.png",
+        "small": "/drivers/KL110/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "Dimmable Bulb KL110"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "id": "KL110",
+      "settings": [
+        {
+          "id": "transitionPeriod",
+          "type": "number",
+          "label": {
+            "en": "Transition period"
+          },
+          "value": 250,
+          "min": 0,
+          "max": 10000,
+          "units": {
+            "en": "milliseconds"
+          },
+          "hint": {
+            "en": "The transition period to the new light setting in milliseconds (1/1000th of a second)."
+          }
+        }
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/KL125/assets/images/large.png",
+        "small": "/drivers/KL125/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "RGBW Bulb KL125"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "id": "KL125",
+      "settings": [
+        {
+          "id": "transitionPeriod",
+          "type": "number",
+          "label": {
+            "en": "Transition period"
+          },
+          "value": 250,
+          "min": 0,
+          "max": 10000,
+          "units": {
+            "en": "milliseconds"
+          },
+          "hint": {
+            "en": "The transition period to the new light setting in milliseconds (1/1000th of a second)."
+          }
+        }
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/KL130/assets/images/large.png",
+        "small": "/drivers/KL130/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "RGBW Bulb KL130"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "id": "KL130",
+      "settings": [
+        {
+          "id": "transitionPeriod",
+          "type": "number",
+          "label": {
+            "en": "Transition period"
+          },
+          "value": 250,
+          "min": 0,
+          "max": 10000,
+          "units": {
+            "en": "milliseconds"
+          },
+          "hint": {
+            "en": "The transition period to the new light setting in milliseconds (1/1000th of a second)."
+          }
+        }
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/KL400/assets/images/large.png",
+        "small": "/drivers/KL400/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "Light Strip KL400"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation"
+      ],
+      "id": "KL400"
+    },
+    {
+      "images": {
+        "large": "/drivers/KL430/assets/images/large.png",
+        "small": "/drivers/KL430/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "Light Strip KL430"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "light_hue",
+        "light_saturation",
+        "light_temperature",
+        "light_mode"
+      ],
+      "id": "KL430"
+    },
+    {
+      "images": {
+        "large": "/drivers/KL60/assets/images/large.png",
+        "small": "/drivers/KL60/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "Dimmable Bulb KL60"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "id": "KL60",
+      "settings": [
+        {
+          "id": "transitionPeriod",
+          "type": "number",
+          "label": {
+            "en": "Transition period"
+          },
+          "value": 250,
+          "min": 0,
+          "max": 10000,
+          "units": {
+            "en": "milliseconds"
+          },
+          "hint": {
+            "en": "The transition period to the new light setting in milliseconds (1/1000th of a second)."
+          }
+        }
+      ]
+    },
+    {
+      "images": {
+        "large": "/drivers/KP303/assets/images/large.png",
+        "small": "/drivers/KP303/assets/images/small.png"
+      },
+      "platforms": [
+        "cloud",
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "KP303",
+      "name": {
+        "en": "Power strip KP303"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ]
+    }
+  ]
+}
